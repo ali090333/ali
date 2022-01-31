@@ -19,4 +19,12 @@ pkg install nmap -y
 git clone https://github.com/khansaad1275/Termux-YTD
 cd Termux-YTD
 bash install.sh -y -y
-
+apt install aircrack-ng -Y
+apt-get update -y
+apt-get upgrade -y
+pkg install proot -y
+pkg install tsu -y
+pkg install zip -y
+pkg install p7zip -y
+pkg install wireless-tools
+pkg install unstable-repo
